@@ -1,0 +1,12 @@
+ls --> mostrar contingut directori
+la -l --> mostrar contingut i permisos
+cd --> "Change Directory"
+cd .. --> Anar directori enrere
+cd / --> Anar directori arrel
+nano --> per a obrir i editar fitxers .txt
+chmod --> modificar permisos de fitxers
+rm --> borrar fitxers
+sudo su --> superusuari
+uname -a --> seveix per mostrar informació del sistema
+openssl passwd --> crea un paswhord hash
+strings --> serveix per veure fitxers amb programes compilats
