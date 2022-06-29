@@ -2,7 +2,7 @@
 if [ $1 ]; then
 ip_segment=$1
 for i in $(seq 2 254); do
-timeout 1 bash -c "ping -c 1 $ip_segment.$i > /dev/null 2>&1" && echo "[*] Host: $ip_segment.$i – ACTI>
+timeout 1 bash -c "ping -c 1 $ip_segment.$i > /dev/null 2>&1" && echo "[*] Host: $ip_segment.$i – ACTIVE" &
 done; wait
 else
 echo -e "\n[*] Usage: ./hostDiscovery.sh <ip_segment>"
